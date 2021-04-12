@@ -396,6 +396,7 @@ def time_formatter(milliseconds: int) -> str:
         ((str(milliseconds) + " millisecond(s), ") if milliseconds else "")
     return tmp[:-2]
 
+
 class Loader():
     def __init__(self, func=None, **args):
         self.Var = Var
